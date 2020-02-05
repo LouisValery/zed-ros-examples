@@ -43,7 +43,7 @@ void objectListCallback(const zed_wrapper::objects::ConstPtr& msg) {
                          << msg->objects[i].label_id
                          << "] - Pos. ["
                          << msg->objects[i].position.x << ","
-                         << msg->objects[i].position.x << ","
+                         << msg->objects[i].position.y << ","
                          << msg->objects[i].position.z << "] [m]"
                          << "- Conf. "
                          << msg->objects[i].confidence
